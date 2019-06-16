@@ -92,4 +92,7 @@ def verif_exercice(rle_reponse):
         print('Exercice réussi !')
     else:
         print('Exercice non réussi...')
-    affichage_rle(5, 5, rle_reponse)
+    if sum(rle_reponse) == 25:
+        affichage_rle(5, 5, rle_reponse)
+    else:
+        print('La somme des entiers de votre tableau devrait être égale à 25 !'
