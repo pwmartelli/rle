@@ -12,7 +12,7 @@ Auteurs : Martin Canals et Pierre-William Martelli
 import matplotlib.pyplot as plt
 import numpy as np
 
-PBM_EXERCICE = [0] * 9
+PBM_EXERCICE = [0] * 25
 
 
 def affichage_pbm(larg, haut, liste_pbm):
