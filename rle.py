@@ -69,8 +69,15 @@ def affichage_PBM(nx,ny,liste):
 
     plt.matshow(mat,cmap='gray')
     plt.show()
-
-    return -1
+    
+def affichage_RLE(nx,ny,liste):
+    mystere=[]
+    bit=0
+    for i in range(len(liste)):
+        for j in range(liste[i]):
+            mystere.append(bit)
+        bit = (bit + 1) % 2
+    affichage_PBM(nx,ny,mystere)
 
 
 
