@@ -1,21 +1,3 @@
-from math import *
-
-chemin='/home/martelli/Documents/Enseignement/2018_2019/NSI/rle'
-#chemin='/home/martelli/Dropbox/Enseignement/2018_2019/NSI/rle'
-
-# [nx,ny,pbm0]=lecture_PBM(chemin+'/lettreJ.pbm')
-# affichage_PBM((nx,ny),pbm0)
-# rle=conversion_PBM_vers_RLE(nx,ny,pbm0)
-# pbm1=conversion_RLE_vers_PBM(nx,ny,rle)
-# affichage_PBM(nx,ny,pbm1)
-
-
-# [nx,ny,pbm0]=lecture_PBM(chemin+'/evolution.pbm')
-# affichage_PBM(nx,ny,pbm0)
-# rle=conversion_PBM_vers_RLE(nx,ny,pbm0)
-# pbm1=conversion_RLE_vers_PBM(nx,ny,rle)
-# affichage_PBM(nx,ny,pbm1)
-
 #============================#
 # Conversion de PBM vers RLE #
 #============================#
